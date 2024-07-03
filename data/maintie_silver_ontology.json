@@ -1,0 +1,51 @@
+{
+  "title": "MaintIE Ontology",
+  "concepts": [
+    {
+      "qid": "Activity",
+      "label": "Activity"
+    },
+    {
+      "qid": "PhysicalObject",
+      "label": "PhysicalObject"
+    },
+    {
+      "qid": "Process",
+      "label": "Process"
+    },
+    {
+      "qid": "Property",
+      "label": "Property"
+    },
+    {
+      "qid": "State",
+      "label": "State"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "contains",
+      "relations": "contains"
+    },
+    {
+      "pid": "hasPart",
+      "relations": "hasPart"
+    },
+    {
+      "pid": "hasAgent",
+      "relations": "hasAgent"
+    },
+    {
+      "pid": "hasPatient",
+      "relations": "hasPatient"
+    },
+    {
+      "pid": "hasProperty",
+      "relations": "hasProperty"
+    },
+    {
+      "pid": "isA",
+      "relations": "isA"
+    }
+  ]
+}
